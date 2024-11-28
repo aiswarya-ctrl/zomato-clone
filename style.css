@@ -1,0 +1,448 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background: rgb(252,252,252);
+}
+header{
+    background:url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    min-height: 450px;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    height:70px;
+    margin:0 auto;
+}
+nav .app_link a{
+    text-decoration: none;
+    color:#fff;
+    font-weight:500;
+    font-size: 1.rem;
+}
+nav .items ul{
+    display:flex;
+    align-items: center;
+    list-style:none;
+
+}
+nav .items ul li a{
+    text-decoration: none;
+    color:#fff;
+    margin:0 20px;
+    font: size 1.2rem;
+    font-weight:lighter;
+}
+.content{
+    color:#fff;
+    width:100%;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+}
+.content img{
+    width: 300px;
+    height: 60px;
+}
+.content h1{
+    font-size:2.2rem;
+    font-weight:100;
+    margin: 30px 0;
+    letter-spacing: 2px;
+}
+.content h1 span{
+    font-weight: 600;
+}
+.container{
+    display:flex;
+    align-items: center;
+    background: #fff;
+    height:3.4rem;
+    width:55%;
+    border-radius: 8px;
+}
+.container .left_search,.container .right_search{
+    display:inline-flex;
+    padding: 0 1rem;
+}
+.container .left_search{
+    width:30%;
+    border-right:2px solid rgba(86, 85, 85, 0.59);
+}
+.container .right_search{
+    width:70%;
+}
+.container input{
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    background:transparent;
+    color: rgba(128, 128, 128, 0.805);
+    width: 100%;
+    margin-left: 6px;
+
+}
+.container .left_search{
+    color:rgba(255, 30, 0, 0.759);
+    font-size :20px;
+}
+.container .right_search{
+    color:rgba(86, 85, 85, 0.715);
+    font-size: 20px;
+}
+.container .arrow{
+    color:rgba(0, 0, 0, 0.489);
+    font-size: 20px;;
+    transform: rotate(180deg);
+    }
+/*...............ordersection css................*/
+.order_section{
+    width:90%;
+    margin:0 auto;
+    margin-left:260px;
+}
+.order_setion .order{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-top: 5%;
+    margin-bottom:50px;
+    
+}
+.order .card{
+    width:40%;
+    margin:12px;
+    border-radius: 10px;
+    border:1px solid rgba(128, 128, 128, 0.214);
+    transition: transform 0.5s;
+    position:relative;
+
+} 
+ .order .card  a img{
+    width:100%;
+    height:200px;
+    border-radius: 10px;
+    top:0;
+    left: 0;
+
+}
+.order .card:hover{
+    transform:scale(1.1);
+}
+.order .card .contents {
+    text-align: left;
+    width:100%;
+    padding:1 12px;
+    position: absolute;
+    bottom:0 ;
+    background: #fff;
+    border-radius: 10px;
+
+}
+.order .card .contents .heading {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.order .card .contents .text {
+    font-size: 1rem;
+}
+/*..................popular Location...................*/
+.collections {
+    color:#3c3c3c;
+    font-weight:lighter;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{
+    font-size: 32px;
+    display: flex;
+    margin-left:255px;
+    margin-top:90px;
+
+
+}
+.heading span{
+    font-style: bold;
+    letter-spacing:3px;
+
+}
+
+.popular_location{
+    width:90%;
+    margin: 40px auto;
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:240px;
+}
+.popular_location .box{
+    width: 25%;    
+    background:#fff;
+    border:1px solid #f3f0f0;
+    margin:10px 15px;
+    padding:1px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-radius:7px;
+
+}
+.popular_location .box a{
+    text-decoration: none;
+    color:#0a0a0a;
+    font-weight:0;
+}
+.popular_location .box p{
+    margin:0;
+}
+.popular_location .box .city{
+font-size: 20px;
+letter-spacing:1px;
+}
+.popular_location .box .see{
+text-align: center;
+font-size: 20px;
+margin-left:115px;
+}
+.popular_location .box .places{
+    font-size: 16px;
+    padding:8px 0;
+}
+.popular_location .box i{
+    color:#8d8c8c;
+    margin-right:20px;
+}
+/*...................................App section CSS..................................*/
+.app-section{
+    width:100%;
+    background:#FFFBF7;
+    padding: 60px 0;
+    margin-top:100px;
+}
+.app {
+    display: flex;
+    width:70%;
+    margin:0 auto;
+    justify-content: space-around;
+}
+.app .app-image{
+    width:30%;
+    padding-top: 50px;
+    
+}
+ .interface {
+    height:430px;
+}
+.app .get-app{
+    width:60%;
+    padding:0 20px;
+}
+.app .get-app h2{
+    font-size:2.7rem;
+    font-weight:lighter;
+    margin-bottom:25px;
+}
+.app .get-app p{
+    font-size:1rem;
+    font-weight:lighter;
+    margin-bottom:30px;
+}
+.app .get-app .email-phone input{
+    margin-bottom:30px; 
+
+}
+.app .get-app .email-phone input[type=radio]{
+    accent-color:rgb(221, 3, 39);
+    width:15px;
+    height:15px;
+}
+.submit input{
+    width:60%;
+    padding: 15px 8px ;
+    border:0;
+    outline:none;
+    border:1px solid #acabab;
+    border-radius:7px;
+    font-size:1rem;
+}
+.submit button{
+    padding:15px 8px;
+    background:rgb(224,41,72);
+    border:0;
+    outline:none;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    color:#fff;
+    margin-left:12px;
+
+}
+.app-store{
+    display:flex;
+    align-items: center;
+    gap:30px;
+    margin-top:30px;
+}
+.app-store img{
+    width: 130px;
+}
+.download{
+    font-size: small;
+    color:#8d8c8c;
+    margin-top:20px;
+}
+/*..........................explore.........................*/
+.option{
+    background:#ffffffab ;
+    width:69%;
+    border: 0;
+    outline:none;
+    border:1px solid #e9e8e8;
+    text-align:left;
+    padding:7px 6px;
+    border-radius: 7px;
+    color:#181818;
+    margin:10px auto;
+
+}
+.option button{
+    background:0;
+    border:0;
+    font-size:large;
+
+
+}
+.explore{
+    display: flex;
+    margin-left: 255px;
+    color: rgb(54, 54, 54);
+    font-size:1.8rem;
+}
+.option i{
+    margin-left:98%;
+}
+/*..........................footer section................................*/
+.footer{
+    width:100%;
+    background:#f8f8f8;
+}
+.footer .container{
+    width:100%;
+    margin:auto;
+    padding:50px 20px;
+
+}
+.footer-top{
+    align-items:center;
+    justify-content:space-between;
+    margin-inline:100px;
+    margin-top:400px;
+    margin-right:100px;
+    margin-left:100px;
+}
+.footer-top img{
+width:140px;
+}
+.footer-top .footer-btn button{
+    padding:10px 30px;
+    border:0;
+    outline:none;
+    border:1px solid #d1d0d0;
+     font-size:16px;
+     margin-top:0 6px;
+     border-radius:6px;
+    align-items:right;
+}
+.footer-links{
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content:space-between;
+}
+
+
+.footer-links .column{
+    margin:50px 12px;
+}
+.footer-links .column .col-links{
+    list-style:none;
+    margin-top:16px;
+}
+.footer-links .column .col-links li{
+    margin-top:10px 0;
+}
+.footer-links .column .col-links li a{
+    text-decoration:none;
+    color:#919090;
+    font-size:15px;
+
+}
+.footer-links  .column div{
+    letter-spacing:1px;
+    font-size :18px;
+}
+.col-links li img{
+    width: 130px;
+}
+.footer-bottom{
+    font-size:14px;
+    margin-top: 20px;
+    text-align:left;
+    color:#3c3c3c;
+    letter-spacing:0 3px;
+
+}
+/*.........................media query for small screen size...........................*/
+@media only screen and (max-width:768px){
+    .menu-icon{
+        display:block;
+    }
+    .nav.app_link a,new .nav_items ul{
+        display :none;
+    }
+    .content h1{
+        font-size:1.5rem;
+    }
+    .content img{
+        width:250px;
+    }
+    .popular_location .box{
+        width:100%;
+    }
+    .app{
+        flex-direction: column;
+    }
+    .app .app-image,.app .get-app{
+        width:100%;
+ }
+ .app .submit input,.app .submit button{
+    width:100%;
+    margin-left:0 ;
+    margin-bottom: 10px;
+ }
+ .app-store{
+    flex-direction: column;
+    width:100%;
+    margin-top:20px;
+
+ }
+ .app-store img{
+    width: 100px;
+ }
+}
